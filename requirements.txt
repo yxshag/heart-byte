@@ -1,0 +1,12 @@
+wfdb>=4.1.0          # reading PhysioNet waveform format (.dat/.hea) files
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0         # signal filtering
+scikit-learn>=1.3.0
+neurokit2>=0.2.9      # ECG peak detection, heart rate, HRV feature extraction
+matplotlib>=3.7.0
+seaborn>=0.12.0
+xgboost>=2.0.0        # baseline model
+torch>=2.0.0          # for the CNN model (stretch goal)
+tqdm>=4.65.0
+jupyter>=1.0.0
