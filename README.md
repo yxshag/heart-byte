@@ -15,7 +15,7 @@ Two approaches are implemented and compared:
 ## Dataset
 
 This project uses the 100Hz version of PTB-XL (~1.8GB). Run the
-provided download script to fetch it into `data/raw/`:
+provided download script to fetch it into `data/`:
 
 ```bash
 bash download_data.sh
@@ -101,7 +101,7 @@ python src/cross_model_error_comparison.py
 ```
 
 Each script prints its results to the terminal and saves any relevant
-outputs (thresholds, plots, CSVs) to the project root.
+outputs (thresholds, plots, CSVs) to the results folder.
 
 For the full methodology, results breakdown, and design decisions
 behind this project, see the accompanying write-up.
